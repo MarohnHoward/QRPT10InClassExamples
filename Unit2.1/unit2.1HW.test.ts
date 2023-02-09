@@ -6,13 +6,13 @@ describe("Testing the calculator", () => {
       expect(calculator.add(99, 1)).toBe(100)
     });
     test("Subtraction works", () => {
-      expect(true).toBeTruthy();
+      expect(calculator.subtract(10,5)).toBe(5)
     });
     test("Multiplication works", () => {
-      expect(true).toBeTruthy();
+      expect(calculator.multiply(2,5)).toBe(10);
     });
     test("Division works", () => {
-      expect(true).toBeTruthy();
+      expect(calculator.divide(10,2)).toBe(5);
     });
     describe("Stretch Goals", () => {
       test("(2+2)/4 == 1", () => {
