@@ -7,7 +7,8 @@ var animalsList: Array<string> = [
     "Bear", 
     "Oh My"
 ]
-
+/*arrays are hard, my guy
+you are right */
 numbersList.push(70)
 numbersList.push(80)
 numbersList.push(90)
