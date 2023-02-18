@@ -1,1 +1,2 @@
 This is to show git 
+git is fun when you understand it. 
