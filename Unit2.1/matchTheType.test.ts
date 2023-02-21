@@ -18,7 +18,7 @@ describe("value testing", () => {
       expect(booleanCheck(4)).toBeFalsy();
     });
   });
-  
+  // booleans are true or false
   function numberCheck(x) {
     return typeof x == "number";
   }
